@@ -1,0 +1,43 @@
+##SAP ABAP Entwicklung auf macOS – Leitfaden & Setup
+
+Willkommen zu diesem Leitfaden! Wenn du einen **Mac** nutzt und mit der Entwicklung von **SAP ABAP** beginnen möchtest, gibt es eine wichtige Besonderheit zu beachten: 
+
+ ⚠️ **Wichtiger Hinweis** 
+ ABAP wird im Gegensatz zu Programmiersprachen wie Python oder Java **nicht lokal** auf macOS installiert. Stattdessen arbeitest du über eine integrierte Entwicklungsumgebung (IDE), die sich mit einem zentralen **SAP-Server** verbindet.
+
+
+## 🚀 Option 1 (Empfohlen): Eclipse + ABAP Development Tools (ADT)
+
+Dies ist die modernste und beste Methode zur Entwicklung von ABAP auf einem Mac.
+
+### Schritt-für-Schritt-Anleitung:
+
+1. **Java 17 oder neuer installieren**  
+   Du kannst Java ganz einfach über [Homebrew](https://brew.sh/) installieren:
+   ```bash
+   brew install openjdk@17
+
+
+##Eclipse IDE herunterladen
+Lade die Version Eclipse IDE for Java Developers von der offiziellen Eclipse-Website herunter und installiere sie.
+ABAP Development Tools (ADT) installieren
+Öffne Eclipse.
+
+Navigiere im Menü zu: Help ➔ Install New Software...
+
+Füge die SAP ADT Update-Site hinzu (z. B. https://tools.hana.ondemand.com/latest) und installiere die ABAP Development Tools.
+Verbindung zum SAP-System herstellen
+Um mit der Entwicklung zu beginnen, benötigst du Zugangsdaten zu einem SAP-Server:
+Server-URL / System-ID
+Benutzername (Username)
+Passwort (Password)
+📌 Hinweis: ADT alleine reicht nicht aus. Du benötigst zwingend Zugriff auf ein verfügbares SAP-Backend-System.
+🖥️ Option 2: SAP GUI
+Für das offizielle SAP GUI gibt es keine native macOS-Version. Wenn du dennoch SAP GUI nutzen möchtest, stehen dir folgende Optionen zur Verfügung:
+Windows Virtuelle Maschine: Nutze Software wie Parallels Desktop oder VMware, um Windows und darauf das SAP GUI auszuführen.
+Remote Desktop (RDP): Verbinde dich per Remote Desktop mit einem Windows-Server/PC, auf dem SAP GUI installiert ist.
+SAP Business Application Studio (BAS): Eine cloudbasierte Entwicklungsumgebung von SAP (falls du entsprechenden Zugriff hast).
+💡 Kostenlos SAP ABAP lernen
+Möchtest du ABAP lernen, ohne ein eigenes Unternehmens-SAP-System zu besitzen? Hier ist die beste Vorgehensweise:
+Eclipse + ADT auf deinem Mac einrichten.
+Einen kostenlosen SAP BTP Trial Account (Business Technology Platform) erstellen und dort die ABAP Environment nutzen (sofern in deiner Region verfügbar).
