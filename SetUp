@@ -37,7 +37,3 @@ Für das offizielle SAP GUI gibt es keine native macOS-Version. Wenn du dennoch 
 Windows Virtuelle Maschine: Nutze Software wie Parallels Desktop oder VMware, um Windows und darauf das SAP GUI auszuführen.
 Remote Desktop (RDP): Verbinde dich per Remote Desktop mit einem Windows-Server/PC, auf dem SAP GUI installiert ist.
 SAP Business Application Studio (BAS): Eine cloudbasierte Entwicklungsumgebung von SAP (falls du entsprechenden Zugriff hast).
-💡 Kostenlos SAP ABAP lernen
-Möchtest du ABAP lernen, ohne ein eigenes Unternehmens-SAP-System zu besitzen? Hier ist die beste Vorgehensweise:
-Eclipse + ADT auf deinem Mac einrichten.
-Einen kostenlosen SAP BTP Trial Account (Business Technology Platform) erstellen und dort die ABAP Environment nutzen (sofern in deiner Region verfügbar).
